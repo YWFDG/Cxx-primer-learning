@@ -70,8 +70,9 @@ std::cout << "The sum of " << V1;
 错误	C2143	语法错误: 缺少“;”(在“*”的前面)	1.2	c:\users\10923\source\repos\chapter1\1.2\1.2\1.2.cpp	6	
 错误	C2143	语法错误: 缺少“;”(在“*”的前面)	1.2	c:\users\10923\source\repos\chapter1\1.2\1.2\1.2.cpp	6	
 ### 1.8
-std::cout << "/*"; 合法v，作为字符输出   
-std::cout << "*/"; 合法，同上
+```std::cout << "/*";``` 合法，作为字符输出   
+```std::cout << "*/";``` 合法，同上
+```C++ std::cout << /*"*/"*/;``` 缺少右引号，改正为```std::cout << /*"*/"*/";```
 
 
 
