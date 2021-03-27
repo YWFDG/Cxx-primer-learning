@@ -13,9 +13,9 @@ int main()
 0xffffffff = 1111 1111 1111 1111 1111 1111 1111 1111  
 signed int -1=1000 0000 0000 0001 反码：1111 1111 1111 1110 补码：1111 1111 1111 1111   
 十六位 三十二位 。。。？？？日后解决  
-## Exercise Section 1.2
+## Exercises Section 1.2
 ### 1.3
-```
+```C++
 #include <iostream>
 
 int main()
@@ -24,7 +24,7 @@ int main()
 }
 ```
 ### 1.4
-```
+```C++
 #include <iostream>
 
 int main()
@@ -55,6 +55,16 @@ int main()
 
 }
 ```
+### 1.6
+```
+std::cout << "The sum of " << V1; 
+          << " and " << V2; 
+	  << " is " << V1 * V2 << std::endl;
+```
+不合法 独立成句后，在输出运算符(<<)左侧没有ostream对象   
+可在2、3句前添加ostream对象，或写在一句中，将输出请求连接起来   
+## Exercises section 1.3
+### 1.7
 
 
 
