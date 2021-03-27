@@ -59,13 +59,19 @@ int main()
 ```
 std::cout << "The sum of " << V1; 
           << " and " << V2; 
-	  << " is " << V1 * V2 << std::endl;
+	  << " is " << V1 + V2 << std::endl;
 ```
 不合法 独立成句后，在输出运算符(<<)左侧没有ostream对象   
 可在2、3句前添加ostream对象，或写在一句中，将输出请求连接起来   
 ## Exercises section 1.3
 ### 1.7
 
+错误	C3872	“0x3002”: 此字符不允许在标识符中使用	1.2	c:\users\10923\source\repos\chapter1\1.2\1.2\1.2.cpp	5	
+错误	C2143	语法错误: 缺少“;”(在“*”的前面)	1.2	c:\users\10923\source\repos\chapter1\1.2\1.2\1.2.cpp	6	
+错误	C2143	语法错误: 缺少“;”(在“*”的前面)	1.2	c:\users\10923\source\repos\chapter1\1.2\1.2\1.2.cpp	6	
+### 1.8
+std::cout << "/*"; 合法v，作为字符输出   
+std::cout << "*/"; 合法，同上
 
 
 
